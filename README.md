@@ -80,6 +80,7 @@ Nesta tela é possível filtrar todos os registros de operações ja realizadas 
 - **Informe de Devolução:** ao selecionar um produto e clicar no botão `Devolução` você é direcionado para a tela de [Informe de Devolução](#62-devolução) com os produtos selecionados.
   - Somente notas do tipo `Venda` podem ser selecionadas para serem devolvidas.
 - **Exportar:** exporta os registros da tabela para uma planilha no formato xlsx com informações adicionais sobre cliente e destinatário.
+- **Desfazer Operação:** abre a confirmação do [Desfazimento de Operação](#7-desfazimento-de-operações) para desfazer a operação selecionada.
 
 ---
 
@@ -133,12 +134,15 @@ Na tela de transferência é necessário selecionar qual das outras concessioná
 
 ## 7. Desfazimento de Operações
 
-Ao clicar no botão de `Desfazer Operação`, na coluna `Ações` na tela de [Historico de Notas](#5-histórico-de-notas), surgirá 
-a seguinte janela de diálogo com a confirmação:
+Ao clicar no botão de `Desfazer Operação`, na coluna `Ações` na tela de [Historico de Notas](#5-histórico-de-notas):
+
+![img.png](img.png)
+
+Surgirá a seguinte janela de diálogo com a confirmação:
 
 ![img.png](imgs/undo_operation_confirmation.png)
 
-Ao aceitar, a operação será desfeita e a nota será apagada.
+Ao aceitar, a operação será desfeita e a nota será apagada, e o produto retorna para o estado anterior ao processo desfeito.
 
 - Validações
   - Não pode haver uma nota mais recente do que a da operação sendo desfeita

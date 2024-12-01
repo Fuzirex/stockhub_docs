@@ -136,7 +136,7 @@ Na tela de transferência é necessário selecionar qual das outras concessioná
 
 Ao clicar no botão de `Desfazer Operação`, na coluna `Ações` na tela de [Historico de Notas](#5-histórico-de-notas):
 
-![img.png](img.png)
+![img.png](imgs/undo_operation_button.png)
 
 Surgirá a seguinte janela de diálogo com a confirmação:
 
